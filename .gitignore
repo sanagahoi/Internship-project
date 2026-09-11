@@ -1,0 +1,32 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.local
+*.pem
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+*.pkl
+*.h5
+
+# Build and output directories
+dist/
+build/
+*.egg-info/
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE & OS system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
